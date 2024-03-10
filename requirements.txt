@@ -1,3 +1,4 @@
+--upgrade pip
 black==23.7.0
 chardet==5.1.0
 clip @ git+https://github.com/openai/CLIP.git
@@ -39,3 +40,4 @@ wheel==0.41.0
 xformers==0.0.20
 gradio
 streamlit-keyup==0.2.0
+-e git+https://github.com/Stability-AI/datapipelines.git@main#egg=sdata
